@@ -1,0 +1,284 @@
+#wrapper {
+	margin:auto;
+	width:960px;
+}
+
+#main {
+	float:left;
+	width:640px;
+	margin-right:20px;
+}
+
+#sidebar {
+	float:right;
+	width:300px;
+}
+
+#login {
+	border: 1px solid #AEAEAE;
+	margin: 100px auto 0;
+	padding: 0;
+	width: 300px;
+}
+
+#adminmenu {
+	padding-left: 0;
+}
+
+#adminmenu li {
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.error {
+	padding: 0.75em;
+	margin: 0.75em;
+	border: 1px solid #990000;
+	max-width: 400px;
+	color: #990000;
+	background-color: #FDF0EB;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+p,li {
+	color: #555555;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #EF1F2F;
+	text-decoration: none;
+}
+
+form input {
+	border: 1px solid #999999;
+	border-bottom-color: #cccccc;
+	border-right-color: #cccccc;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	margin: 2px;
+}
+
+table {width:98%; text-align:left; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+table tr.alt td {background-color:#E2E2E2;}
+table tr:hover {background-color:#F0F0F0; color:#000;}
+
+/* PAGINATION */
+
+.pagination {
+    clear: both;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pagination a {
+    border: 1px solid #D5D5D5;
+    color: #666666;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+  margin:2px;
+}
+.pagination a:hover, .pagination a:active {
+    background:#efefef;
+}
+.pagination span.current {
+    background-color: #687282;
+    border: 1px solid #D5D5D5;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+        margin:2px;
+}
+.pagination span.disabled {
+    border: 1px solid #EEEEEE;
+    color: #DDDDDD;
+    margin: 2px;
+    padding: 2px 5px;
+}
+
+#respond {
+    margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    line-height: 1.4em;
+}
+
+/////////////////////////////////////////////////////////////
+ol {
+    list-style: outside decimal;
+    margin: 1em 0 1.5em 1.5em;
+}
+
+dl {margin: 0 0 1.5em 0;}
+dt {font-weight: bold;}
+dd {margin-left: 1.5em;}
+
+ol, ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset {
+    background: #f9f9f9;
+    margin: 1.5em;
+    padding: 2em;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+legend {font-size: 1.25em; margin-bottom: 0 !important; margin-bottom: 1.429em; padding: 0 .5em;}
+label {font-size: 1.1em; height: 25px; line-height: 25px;}
+
+/* Input Types */
+input[type='text'],
+input[type='email'],
+input[type='url'],
+textarea {
+    background: #fff;
+    border: 1px solid #eee;
+    color: #999;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 2px;
+}
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='url']:hover,
+textarea:hover {
+    background: #FFFBEF;
+    border-color: #ff0;
+    cursor: text;
+}
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+textarea:focus {
+    background: #ffC;
+    border-color: #ff1;
+    color: #0d0d0d;
+}
+
+input[type='checkbox'], input[type='radio'] {
+    display: block;
+    margin-top: 4px;
+}
+
+input[type='submit'] {
+    background: #C74350;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    padding: .3em 2em;
+    text-shadow: 1px 1px 1px #000;
+}
+
+input:required, textarea:required {outline: 1px solid #C74350;}
+
+/* Textarea */
+textarea {width: 99%; margin-bottom: 7px;}
+
+/* Alignments */
+div.left {margin-left: 1em;}
+div.right {margin-right: 1em;}
+
+.labels-left label, div.left label {
+    clear: left;
+    float: left;
+    margin-right: .5em;
+    text-align: right;
+}
+.labels-left input, div.left input, .labels-left select, div.left select {float: left;}
+
+.labels-right label, div.right label {
+    float: left;
+    margin-left: .5em;
+    text-align: right;
+}
+.labels-right input, div.right input, .labels-right select, div.right select {clear: left; float: left;}
+
+.labels-top label, div.top label {display: block;}
+.labels-top input, div.top input {margin-bottom: 0;}
+
+/* Columns */
+.columns-2 div.column1, .columns-2 div.column2 {float: left; width: 48%;}
+.columns-2 input.text {width: 150px;}
+
+.columns-3 div.column1, .columns-3 div.column2, .columns-3 div.column3 {float: left; width: 33%;}
+.columns-3 input.text {width: 120px;}
+
+.columns-2 div.left, .columns-2 div.right, .columns-2 div.top {width: 32%;}
+.columns-3 div.left, .columns-3 div.right, .columns-3 div.top {width: 29%;}
+
+/* Messages classes */
+.req {color: #C74350;}
+.error,.notice, .success {
+    padding: .2em;
+    margin-bottom: 1em;
+    border: 2px solid #ddd;
+}
+
+.error {background: #FBE3E4; border-color: #FBC2C4; color: #8a1f11;}
+.notice {background: #FFF6BF; border-color: #FFD324; color: #514721;}
+.success {background: #E6EFC2; border-color: #C6D880; color: #264409;}
+
+.error a {color: #8a1f11;}
+.notice a {color: #514721;}
+.success a {color: #264409;}
+
+#posts-list.has-comments li.no-comments {
+    display: none;
+}

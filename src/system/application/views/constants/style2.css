@@ -1,0 +1,55 @@
+*{margin:0;padding:0;}
+html{border-top:1px solid #252525;background:#131313;}
+body{/*border-top:15px solid #3399ff;*/background:#f7f7f7/* url('ddrlogo.png') fixed no-repeat*/;}
+h2{color:#333; font:20pt Georgia; text-transform:uppercase;}
+h3{color:#333;text-shadow:1px 1px 2px #666; font:16pt Georgia;}
+h4{font:11pt Georgia;padding-bottom:8px;}
+p{padding:10px 0;line-height:1.5em;clear:left;}
+
+form{background:#333;padding:15px;font:12pt Georgia;width:300px;float:left;margin-top:15px;margin-left:15px;margin-bottom:20px;}
+form p{margin-left:15px;}
+option{border:none;}
+input, select, textarea{border-radius:5px;border:thin solid #333;padding:5px;font:10pt Georgia;width:250px;}
+textarea{height:150px;}
+
+a{text-decoration:none;color:#131313;}
+a:link, a:visited{color:#00688B;}
+a:hover, a:active {color:#f00;}
+.here a{color:#f00; border-bottom:2px solid #777;}
+/*
+#logo{width:100%;}
+.logo{width:350px;height:100px;background:url('/img/ddrlogo.png');margin:auto;}
+*/
+#menu{width:100%;padding:10px 0;}
+.menu{width:760px;text-align:right;padding:5px 15px;height:100px;background:url('/system/application/images/ddrlogo.png') no-repeat;margin:auto;}
+#menu a{font:12pt Georgia, Verdana, Helvetica, Sans-serif;}
+#menu li{display:inline;list-style:none;padding-left:8px;}
+
+#main{width:100%;padding:20px 0;}
+.main{width:760px;margin:auto;font:10pt Verdana, Sans-serif;text-align:left;}
+.main h3{color:#00688B;padding:10px 0;}
+.main ul{margin-left:40px;}
+.main li{line-height:1.8em;}
+
+#firstp{width:100%;padding:0 0 10px 0;}
+.firstp a{color:#63D1F4;}
+.firstp a:hover{color:#f66;}
+.firstp h2{font:32pt Impact;letter-spacing:5px;color:#9bccff;}
+.firstp{background:#252525;color:#eee;border-radius:20px;width:760px;margin:auto;font:italic 12pt Georgia, Sans-serif;padding:20px;}
+
+.firstp2{width:860px;margin:auto;font:10pt Verdana, Sans-serif;}
+.firstpi{background:#333;border-radius:20px;width:760px;margin:auto;font:10pt Verdana, Sans-serif;padding:0;}
+.firstpi li{list-style:none;line-height:1.5em;}
+.firstpi ul{margin:0;}
+
+#foot{width:100%;clear:both;background:#252525;}
+.foot{margin:auto;width:760px;}
+.footxt{float:left;font:8pt Verdana;padding:20px 10px 20px 0;list-style:none;color:white;line-height:1.5em;text-align:left;}
+.footxt a{color:white;}
+.footxt a:link, .footxt a:visited{color:white;}
+.footxt a:hover, .footxt a:active{color:#00cdcd;}
+.footxt li b{font-weight:bold;color:#ffa500;}
+
+.frm{background:#9bccff;color:#252525;border-radius:15px;padding:10px;}
+.quote{background:#9bccff;padding:10px;border-radius:10px;}
+.undrln li{border-bottom:1px dotted #eee;}
